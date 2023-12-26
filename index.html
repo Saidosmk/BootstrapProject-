@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website Using Bootstrap</title>
+
+    <!-- Bootstrap CSS link -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Bootstrap JS link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+      <!-- Navbar -->
+  <nav class="py-3 navbar navbar-expand-lg fixed-top auto-hiding-navbar navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+ </nav>
+<!-- Navbar End -->
+
+<!-- home section -->
+<section id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Hi,<br>Ich bin Saida Karypbaeva</h1>
+                <p>"Hallo! Ich bin Saida und freue mich, Sie auf meiner persönlichen Website begrüßen zu dürfen. Hier finden Sie Informationen zu meinen Interessen, Leistungen und Abenteuern. Von Reisen und Hobbys bis hin zu meinem beruflichen Werdegang - Willkommen in meiner Welt!"</p>
+             </div>
+             <div class="col">
+                 <img src="./img/Foto1.png" alt="">
+             </div>
+        </div>
+        <div class="row cards">
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="card">
+                  <div class="card-body">
+                    <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+                      <h5 class="card-title">Skills</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, dolor?</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="card">
+                  <div class="card-body">
+                    <i class="fa-solid fa-pen-to-square fa-2x "></i>
+                      <h5 class="card-title">Experience</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="card">
+                  <div class="card-body">
+                    <i class="fa-solid fa-book-open fa-2x"></i>
+                      <h5 class="card-title">Education</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hero section ends here →
+
+<!-- About Us -->
+<section id="about-me">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <img src="./img/foto2.png" alt="" class="img-fluid"/>
+            </div>
+            <div class="col">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur reiciendis in quae, rem corporis id sequi debitis aliquam laudantium illum vel unde? Praesentium laboriosam neque eaque architecto maxime nihil?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur reiciendis in quae, rem corporis id sequi debitis aliquam laudantium illum vel unde? Praesentium laboriosam neque eaque architecto maxime nihil?</p>
+                <button type="button" class="btn btn-dark btn-lg">Hire me!</button>
+          </div>
+        </div>
+    </div>
+</section>
+<!-- End of About Us -->
+
+<!-- Resume section -->
+<section id="resume">
+    <div class="container">
+        <div class="row justify-content-center">
+              <h1>Resume</h1>
+              <p>You can download my resume here.</p>
+              <button type="button" class="btn btn-primary">
+                <i class="bi bi-cloud-upload-fill">download Resume</i></button>
+            </div>
+    </div>
+</section>
+
+<!-- End Resume section -->
+
+  <!-- Projects section -->
+  <section id="projects">
+  <div class="container">
+    <div class="row align-items-center projects">
+        <div class="col"> 
+          <h1>My Project</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quod aliquam corporis tempore nostrum. Animi rem quisquam deleniti qui ad ipsa quod! Animi corrupti, ex blanditiis dolor error nulla consectetur.</p>
+        </div>         
+        <div class="row align-items-center">
+          <div class="col">
+              <div class="card mb-3">
+                  <img src="./img/project1.png" class="card-img-top" alt="project1">
+                  <div class="card-body">
+                    <h5 class="card-title">Title 1</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Some useful info</small></p>
+                  </div>
+                </div>
+          </div>
+          <div class="col">
+              <div class="card mb-3">
+                  <img src="./img/project2.png" class="card-img-top" alt="project2">
+                  <div class="card-body">
+                    <h5 class="card-title">Title 2</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Some useful info</small></p>
+                  </div>
+                </div>
+          </div>
+          <div class="col">
+              <div class="card mb-3">
+                  <img src="./img/project3.png" class="card-img-top" alt="project3">
+                  <div class="card-body">
+                    <h5 class="card-title">Title 3</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Some useful info</small></p>
+                  </div>
+                </div>
+          </div>
+      </div>
+    </div>
+</div>
+</section>
+<!-- End of Projects Section -->
+ <!-- Contact Section -->
+ <section id="contact">
+    <div class="container">
+            <div class="container my-5">
+                <div class="row justify-content-start">
+                  <div class="col-lg-9">
+                    <h1 class="mb-3">Contact Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quod aliquam corporis tempore nostrum. Animi rem quisquam deleniti qui ad ipsa quod! Animi corrupti, ex blanditiis dolor error nulla consectetur.</p>
+                    <form>
+                      <div class="row g-3">
+                        <div class="col-md-6">
+                          <label for="your-name" class="form-label">Your Name</label>
+                          <input type="text" class="form-control" id="your-name" name="your-name" required>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="your-surname" class="form-label">Your Surname</label>
+                          <input type="text" class="form-control" id="your-surname" name="your-surname" required>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="your-email" class="form-label">Your Email</label>
+                          <input type="email" class="form-control" id="your-email" name="your-email" required>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="your-subject" class="form-label">Your Subject</label>
+                          <input type="text" class="form-control" id="your-subject" name="your-subject">
+                        </div>
+                        <div class="col-12">
+                          <label for="your-message" class="form-label">Your Message</label>
+                          <textarea class="form-control" id="your-message" name="your-message" rows="5" required></textarea>
+                        </div>
+                        <div class="col-12">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <button data-res="<?php echo $sum; ?>" type="submit" class="btn btn-dark w-100 fw-bold" >Send</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+  </section>
+  <!-- End of contact section -->
+  
+
+</body>
+</html>
